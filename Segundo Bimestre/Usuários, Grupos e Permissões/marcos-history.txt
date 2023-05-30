@@ -1,0 +1,55 @@
+    1  cd marcos/
+    2  ls
+    3  clear
+    4  cd ..
+    5  clear
+    6  ls
+    7  cd marcos/
+    8  ls
+    9  cd alunos-marcos/
+   10  mkdir teste
+   11  cd lab01-marcos
+   12  cd ..
+   13  cd lab01-marcos
+   14  mkdir teste
+   15  cd ..
+   16  cd lab02-marcos
+   17  mkdir teste
+   18  cd ..
+   19  cd todos-marcos
+   20  mkdir teste
+   21  cd ..
+   22  sudo rmdir alunos-marcos/
+   23  cd todos-marcos/
+   24  sudo mkdir teste
+   25  ls
+   26  cd ..
+   27  sudo rmdir marcos/
+   28  cd marcos/
+   29  ls
+   30  sudo rm lab01-marcos/
+   31  sudo rmdir lab01-marcos/
+   32  sudo rmdir lab02-marcos/
+   33  sudo rmdir lab03-marcos/
+   34  ls
+   35  sudo rmdir professores-marcos/
+   36  sudo rmdir todos-marcos/
+   37  cd todos-marcos/
+   38  sudo rmdir teste/
+   39  cd ..
+   40  sudo rmdir todos-marcos/
+   41  cd ..
+   42  sudo rmdir marcos/
+   43  sudo userdel aluno-marcos
+   44  sudo kill 2802
+   45  sudo userdel aluno-marcos
+   46  kill 2802
+   47  sudo userdel professor-marcos
+   48  sudo userdel prof-marcos
+   49  sudo groupdel alunos-marcos
+   50  sudo groupdel todos-marcos
+   51  sudo groupdel lab01-marcos
+   52  sudo groupdel lab02-marcos
+   53  sudo groupdel lab03-marcos
+   54  sudo groupdel professores-marcos
+   55  history > marcos-history.txt
