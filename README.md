@@ -1,4 +1,4 @@
 # sistemas-operacionais
 
 - Objetivo:
-  - Inserir as atividades da disciplina de Sistemas Operacionais
+  - Inserir as atividades desenvolvidas ao longo do ano da disciplina de Sistemas Operacionais
