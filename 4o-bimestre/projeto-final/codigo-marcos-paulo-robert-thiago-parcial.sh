@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Função para realizar um saque (mantida igual)
+# Função para realizar um saque
 realizar_saque() {
     valor=$(dialog --inputbox "Digite o valor do saque:" 8 40 --stdout)
     if [ $? -eq 0 ]; then # Verifica se o usuário pressionou OK
@@ -28,7 +28,7 @@ realizar_saque() {
     fi
 }
 
-# Função para realizar um depósito (mantida igual)
+# Função para realizar um depósito
 realizar_deposito() {
     valor=$(dialog --inputbox "Digite o valor do depósito:" 8 40 --stdout)
     if [ $? -eq 0 ]; then # Verifica se o usuário pressionou OK
